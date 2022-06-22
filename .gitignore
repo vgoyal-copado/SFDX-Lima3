@@ -1,0 +1,8 @@
+ 
+    .sfdx/
+    .cache/
+    .ssh/
+    vlocity_build/
+    .gitignore
+    package.xml
+    destructiveChanges.xml
