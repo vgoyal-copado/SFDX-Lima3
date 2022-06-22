@@ -1,0 +1,8 @@
+
+.sfdx/
+.cache/
+.ssh/
+vlocity_build/
+package.xml
+destructiveChanges.xml
+.sf/
