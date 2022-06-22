@@ -6,4 +6,4 @@
     .gitignore
     package.xml
     destructiveChanges.xml
-    
+    .sf/
