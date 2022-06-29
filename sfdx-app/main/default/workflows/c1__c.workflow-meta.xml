@@ -34,4 +34,14 @@
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
+    <rules>
+        <fullName>r3</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>c1__c.Name</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
 </Workflow>
