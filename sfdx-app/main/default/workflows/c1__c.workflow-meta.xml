@@ -24,4 +24,14 @@
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
+    <rules>
+        <fullName>r2</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>c1__c.CreatedById</field>
+            <operation>equals</operation>
+            <value>ABC</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
 </Workflow>
