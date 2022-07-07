@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -7,12 +8,24 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Re1__c-Re1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>SFDX__c-SFDX Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>c1__c-c1 Layout</layout>
     </layoutAssignments>
-    <loginHours n1:nil="true"></loginHours>
+    <loginHours n1:nil="true" />
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Re1__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -519,6 +532,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSynonyms</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageTranslation</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
