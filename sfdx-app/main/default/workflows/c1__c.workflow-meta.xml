@@ -3,13 +3,23 @@
     <fieldUpdates>
         <fullName>fieldUpdate</fullName>
         <field>Name</field>
-        <formula>"vishal"</formula>
+        <formula>&quot;vishal&quot;</formula>
         <name>fieldUpdate</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Formula</operation>
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <rules>
+        <fullName>r2</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>c1__c.CreatedById</field>
+            <operation>equals</operation>
+            <value>ABC</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
     <rules>
         <fullName>r1</fullName>
         <actions>
@@ -19,16 +29,6 @@
         <active>false</active>
         <criteriaItems>
             <field>c1__c.Name</field>
-            <operation>equals</operation>
-            <value>ABC</value>
-        </criteriaItems>
-        <triggerType>onCreateOrTriggeringUpdate</triggerType>
-    </rules>
-    <rules>
-        <fullName>r2</fullName>
-        <active>false</active>
-        <criteriaItems>
-            <field>c1__c.CreatedById</field>
             <operation>equals</operation>
             <value>ABC</value>
         </criteriaItems>
